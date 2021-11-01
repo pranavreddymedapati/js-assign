@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second</title>
+    <script>
+    var x=30;
+function sum(){
+   console.log("Globally value of x is :"+ x);
+   diff();
+}
+function diff(){
+    x=80;
+console.log(" locally value of x: "+x);
+}
+console.log(x++);
+sum();
+    </script>
+</head>
+<body>
+    <h1>Scope of variables</h1>
+
+</body>
+</html>
